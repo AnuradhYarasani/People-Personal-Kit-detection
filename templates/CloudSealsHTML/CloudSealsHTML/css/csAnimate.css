@@ -1,0 +1,17 @@
+
+.lefeColumn_Anima {
+    animation: fadeInLeft;
+    animation-duration: 2s;
+    display: block;
+}
+
+.rightColumn_Anima {
+    animation: fadeInRight;
+    animation-duration: 5s;
+    display: block;
+}
+
+.csBtn_Anima {
+    animation: bounceInUp;
+    animation-duration: 5s;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desecription" content="Founded in 2018, CloudSeals is your trusted partner for comprehensive cloud management services. With expertise in cloud migration, optimization, and secure cloud solutions, we help businesses harness the power of cloud technology and AI advancements.">
+    <meta name="keywords" content="CloudSeals, Nebula Ai, Solutions, Center of Excellence, CSeals, Cloud, Automation, Simplify, Scalability, Efficiency, Skill Development, Ai, DevOps, NoOps, Curve, Adoptability, FinOps, Model, ROI, IT, ML, Machine Learning, Ai Ops, No Ops, Dev Ops"> -->
+
+    <!-- <link rel="icon" href="images/logo-blue.png" type="image/png" sizes="16x16"> -->
+    <link rel="icon" type="image/x-icon" href="images/c-logo-blue_16.png" type="image/png" sizes="16x16">
+
+    <!-------CSS --------->
+	
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/csAnimate.css" rel="stylesheet">
+
+    <title>CloudSeals GuardianEye PPE_detection</title>
+   
+</head>
+
+<body>
+
+<div class="container">
+    <div class="csNavbarMain">  
+    <div class="csNavbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul> 
+  </div>
+
+    <div class="csLogo">
+      <img src="images/CloudSeals  Logo 1.png" alt="CloudSeals Logo">
+    </div>
+  </div>
+
+</div>
+
+<div class="clearfix"></div>
+
+<!---Nav bar end------------>
+<div class="container">
+
+	<div class="lefeColumn lefeColumn_Anima">
+		<div class="leftImg">
+			<img src="images/VNU_M683_15 1.png"  alt="bg"> 
+        </div>
+    </div>
+      
+      <div class="rightColumn rightColumn_Anima">
+        <div class="page1Head">
+        <h1>Guardian <br> Eye AI</h1>
+        <p>Introducing Cloudseals GuardianEYE, your ultimate Safety AI companion in the virtual realm! In this groundbreaking video, embark on a thrilling journey into the world of cutting-edge technology and unparalleled protection.</p>
+        </div>
+      </div>
+</div>
+
+
+ <div class="clearfix"></div>
+
+ <br><br>
+<hr>
+<br><br>
+
+<!-------------------this is Image analysis script start from here --------------------->
+
+
+<div id="container">
+
+  <div id="logo">
+      <img src="static/images/CloudSeals_logo_50.png" alt="Logo">
+  </div>
+  <br>
+  <h1>GuardianEye Workplace Safety</h1>
+  <br>
+  <form method="POST" action="/PPE_detection" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <button type="submit">Upload and Process</button>
+  </form>
+
+<br><br>
+
+  <div class="image-container">
+      <img src="{{ input_image }}" alt="Input Image" class="image">
+  </div>
+
+  <div class="image-container">
+    <img src="{{ output_image }}?{{ timestamp }}" alt="Output Image" class="image">
+  </div> 
+  
+
+<div class="image-container">
+  <div class="text_title">Title here</div>
+  <div class="clearfix"></div>
+  <div class="text_title_inner">
+    <table>
+      <tr><td> Value 1: </td> <td>{{ display_text | safe }}</td></tr>
+    </table>
+  </div>
+</div>
+
+</div>
+
+<!-------------------this is Image analysis script End  --------------------->
+    
+</body>
+</html>

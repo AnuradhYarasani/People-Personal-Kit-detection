@@ -1,0 +1,18 @@
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 932-343-519
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 19:58:57] "POST /PPE_detection HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 19:58:57] "[36mGET /static/images/CloudSeals_logo_50.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 19:58:57] "[36mGET /static/uploads/a3fdc889-Screenshot_2023-10-27_183642.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 19:58:57] "GET /static/images/output_image.png?1702650537 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:04:57] "POST /PPE_detection HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:04:57] "GET /static/uploads/a0e75372-Screenshot_2023-10-27_191839.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:04:57] "[36mGET /static/images/CloudSeals_logo_50.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:04:57] "GET /static/images/output_image.png?1702650897 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:05:05] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:05:05] "[36mGET /static/images/CloudSeals_logo_50.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:05:05] "[33mGET /None HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:05:05] "[33mGET /None HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:35:24] "POST /PPE_detection HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:35:24] "[36mGET /static/images/CloudSeals_logo_50.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:35:24] "[36mGET /static/uploads/a3fdc889-Screenshot_2023-10-27_183642.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [15/Dec/2023 20:35:24] "GET /static/images/output_image.png?1702652724 HTTP/1.1" 200 -
